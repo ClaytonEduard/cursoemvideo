@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Midias em HTML5</title>
+  </head>
+  <body>
+    <h1>Imagens dinâmicas</h1>
+    <p>
+      Tente abrir esse site em várioas dispositivos diferente ou simplesmente
+      aumente e diminua o tamanho do seu navegador
+    </p>
+    <!-- essa taga permite usar varios sources de imagem-->
+    <picture>
+      <source
+        media="(max-width: 750px )"
+        srcset="imagens/foto-p.png"
+        type="image/png"
+      />
+      <!-- vai carregar a foto grande ao iniciar e caso a media seja menor que 1000 px ele coloca a foto m -->
+      <source
+        media="(max-width: 1050px)"
+        srcset="imagens/foto-m.png"
+        type="image/png"
+      />
+      <img src="imagens/foto-g.png" alt="Imagem flexivel" />
+    </picture>
+
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5.</p>
+    <audio preload>
+        <!-- essa propriedade source trabalha parecido com o IF -->
+      <source src="media/Smokin Sticks - Text Me Records _ GrandBankss.mp3" type="audio/mpeg" />
+      <source src="media/Smokin Sticks - Text Me Records _ GrandBankss.ogg" type="audio/ogg" />
+      <source src="media/Smokin Sticks - Text Me Records _ GrandBankss.wav" type="audio/wav" />
+      <p>Infelizmente seu navegador não consegue reproduzir este áudio. <a href="media/Smokin Sticks - Text Me Records _ GrandBankss.mp3">Clique aqui para baixar o arquivo MP3</a></p>
+    </audio>
+  </body>
+</html>
