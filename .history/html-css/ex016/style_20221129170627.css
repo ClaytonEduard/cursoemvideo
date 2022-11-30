@@ -1,0 +1,12 @@
+@charset "UTF-8";
+/*configuraçoes globais*/
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100;
+}
+body{
+    background-image:linear-gradient(to right, ##5687A6);
+}
+p{
+    text-align: justify;
+}
