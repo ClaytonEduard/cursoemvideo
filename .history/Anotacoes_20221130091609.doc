@@ -78,30 +78,8 @@ glifo é uma letra
 TAMANHOS DE FONTES
 
 Medidas absolutas 
-cm - centimetro
-mm - milimetro
-in - polegada
-px - pixel
-pt - ponto
-pc - paica
-
+cm,
+mm
 Medidas Relativas 
-em - tamanho atual da Fonte - altura M
-ex - tamanho ex da Fonte - altura x
-res - tamanho relativo da fonte configurada no body
-vw -  viewport -  % da largura da sua tela
-vh - viewport -  % da altura da sua tela
-%
-
-PESOS DAS FONTES
-lighter - leve
-normal - normal
-bold - negrito
-bolder - extra negrito
-
-font-weight: normal;
-font-style: normal;
-text-decoration: underline;/*sublinhado*/
-
 
        

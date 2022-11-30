@@ -99,9 +99,5 @@ normal - normal
 bold - negrito
 bolder - extra negrito
 
-font-weight: normal;
-font-style: normal;
-text-decoration: underline;/*sublinhado*/
-
 
        

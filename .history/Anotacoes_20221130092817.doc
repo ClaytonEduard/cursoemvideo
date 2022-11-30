@@ -94,14 +94,9 @@ vh - viewport -  % da altura da sua tela
 %
 
 PESOS DAS FONTES
-lighter - leve
-normal - normal
-bold - negrito
-bolder - extra negrito
-
-font-weight: normal;
-font-style: normal;
-text-decoration: underline;/*sublinhado*/
+lighter -
+normal -
+bold - 
 
 
        
