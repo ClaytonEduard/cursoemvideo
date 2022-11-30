@@ -107,9 +107,8 @@ text-decoration: underline;/*sublinhado*/
 Tipos de fontes externas
 
 Ex018
-// dentro do style
 @font-face {
-         font-family: 'Hallo'; // renomeia a fonte.
+        font-family: f;
         src: url('Night Rumble.otf') format('opntype'),
           url('Night Rumble.ttf') format('truetype');
  }

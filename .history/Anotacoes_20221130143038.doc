@@ -107,17 +107,11 @@ text-decoration: underline;/*sublinhado*/
 Tipos de fontes externas
 
 Ex018
-// dentro do style
-@font-face {
-         font-family: 'Hallo'; // renomeia a fonte.
-        src: url('Night Rumble.otf') format('opntype'),
-          url('Night Rumble.ttf') format('truetype');
- }
-/*  Tipos de format()
-    - opntype (otf)
-    - truetype (ttf)
-    - embedded-opentype
-    - truetype-att(Apple Advanced Typography)
-    - svg
-*/
+ /*  Tipos de format()
+                - opntype (otf)
+                - truetype (ttf)
+                - embedded-opentype
+                - truetype-att(Apple Advanced Typography)
+                - svg
+            */
        
