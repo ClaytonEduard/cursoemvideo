@@ -194,13 +194,4 @@ div - box-level
 <video>
 
 span - inline-level
-<a>
-<code>
-<small>
-<strong>
-<em>
-<sup>-<sub>
-<label>
-<button>
-<input>
-<select>
+<

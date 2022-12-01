@@ -128,7 +128,7 @@ Ex018
     em html é class = em CSS é (pode varios elementos)
 */
 
-//exercicio 020 --------------------------------------------------------
+//exercicio 020
 pseudoclasses
 
 CSS
@@ -174,33 +174,3 @@ body {
             content:' ⇐';
         }
 ----------------------------------------------------------------
-height
-width
-border
-padding - calculado em todas as dimensoes
-margin - borda para fora
-outline - fora do elemento
-
-div - box-level
-<h1>-<h6>
-<p>
-<main>
-<header>
-<nav>
-<article>
-<aside>
-<footer>
-<form>
-<video>
-
-span - inline-level
-<a>
-<code>
-<small>
-<strong>
-<em>
-<sup>-<sub>
-<label>
-<button>
-<input>
-<select>

@@ -188,19 +188,7 @@ div - box-level
 <header>
 <nav>
 <article>
-<aside>
-<footer>
-<form>
-<video>
+
+
 
 span - inline-level
-<a>
-<code>
-<small>
-<strong>
-<em>
-<sup>-<sub>
-<label>
-<button>
-<input>
-<select>

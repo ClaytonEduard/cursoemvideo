@@ -128,7 +128,7 @@ Ex018
     em html é class = em CSS é (pode varios elementos)
 */
 
-//exercicio 020 --------------------------------------------------------
+//exercicio 020
 pseudoclasses
 
 CSS
@@ -137,70 +137,4 @@ CSS
 . = class
 : = pseudo-classes
 :: = pseudo-element
->  = clildren
-
-
-body {
-            font-family: Arial, Helvetica, sans-serif;
-        }
-
-        a {
-            color: red;
-            text-decoration: none;
-            font-weight: bold;
-        }
-
-        a:visited {
-            color: darkred;
-        }
-
-        a:hover {
-            color: black;
-            text-decoration: underline;
-        }
-
-        a:active {
-            color: blue;
-        }
-
-        .especial{
-            background-color: rgba(169, 169, 169, 0.394);
-        }
-
-        .especial::before{
-            content:'⇒ ';
-        }
-        .especial::after{
-            content:' ⇐';
-        }
-----------------------------------------------------------------
-height
-width
-border
-padding - calculado em todas as dimensoes
-margin - borda para fora
-outline - fora do elemento
-
-div - box-level
-<h1>-<h6>
-<p>
-<main>
-<header>
-<nav>
-<article>
-<aside>
-<footer>
-<form>
-<video>
-
-span - inline-level
-<a>
-<code>
-<small>
-<strong>
-<em>
-<sup>-<sub>
-<label>
-<button>
-<input>
-<select>
+>=
