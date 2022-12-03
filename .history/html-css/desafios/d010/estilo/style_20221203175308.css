@@ -99,11 +99,8 @@ main h1 {
     font-family: var(--fonte-adroid);
 }
 main h2 {
-    color: var(--cor4);
+    color: var(--cor5);
     font-family: var(--fonte-adroid);
-    font-size: 1.3m;
-    background-image:linear-gradient(to right, var(--cor1), transparent);
-    text-indent:8px;
 }
 
 main p{
@@ -121,14 +118,7 @@ main strong{
 main a{
     text-decoration: none;
     font-weight: bold;
-    color: var(--cor5);
-    background-color:var(--cor1);
-    padding: 2px 6px;
-}
-
-main a:hover{
-    text-decoration: underline;
-    color: var(--cor4);
+    color: ;
 }
 
 footer{

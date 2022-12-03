@@ -30,6 +30,10 @@ body {
     background-color: var(--cor0);
     font-family: var(--fonte-padrao);
 }
+main p{
+    margin: 15px 0px;
+    text-align: justify;
+}
 
 header{
     background-image: linear-gradient(to bottom,var(--cor3),var(--cor5) );
@@ -99,38 +103,9 @@ main h1 {
     font-family: var(--fonte-adroid);
 }
 main h2 {
-    color: var(--cor4);
-    font-family: var(--fonte-adroid);
-    font-size: 1.3m;
-    background-image:linear-gradient(to right, var(--cor1), transparent);
-    text-indent:8px;
-}
-
-main p{
-    margin: 15px 0px;
-    text-align: justify;
-    text-indent: 30px;
-    line-height: 2em;
-    font-size: 1em;
-}
-
-main strong{
-    color: var(--cor4);
-    font-weight: bold;
-}
-main a{
-    text-decoration: none;
-    font-weight: bold;
     color: var(--cor5);
-    background-color:var(--cor1);
-    padding: 2px 6px;
+    font-family: var(--fonte-adroid);
 }
-
-main a:hover{
-    text-decoration: underline;
-    color: var(--cor4);
-}
-
 footer{
     background-color:var(--cor5);
     color:white;
