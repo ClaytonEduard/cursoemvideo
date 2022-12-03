@@ -1,0 +1,18 @@
+@charset "UTF-8";
+/*
+ #c5ebd6
+ #83e1ad
+ #3ddc84
+ #2fa866
+ #1a5c37
+ #063d1e
+*/
+
+/* raiz da arvore do documento*/
+:root{
+    --cor0:
+}
+
+body{
+    background-color: #c5ebd6;
+}

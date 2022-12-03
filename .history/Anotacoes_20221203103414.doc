@@ -1,0 +1,232 @@
+Cores são importante para tudo.
+
+Circulo cromatico
+12 cores principais
+Entender harmonia
+Simentria - crie uma comodidade visual
+
+Cores primarias
+1.Amarelo - Vermelho - Azul
+
+Cores Secundarias
+2.Laranja - Violeta - Verde
+
+Cores Terciaria - tem uma cor pastel
+Mustura das outras duas
+1.amarelo-esverdiado
+2.amarelo-alaranjado
+3.vermelho-alaranjado
+4.vermelho-arroxeado
+5.azul-arroxeado
+6.azul-esverdiado
+
+paleta de 3 a 5 cores
+cor primaria do cliente, ex: a logo
+
+Cores complementares
+cores que estao no extremo oposto do Circulo monocromatico
+ex: vermelho -> verde
+azul -> laranja
+
+Cores Analogas - Harmonia
+cores que são vizinhas no circulo monocromatico
+
+Cores Analogas - Relacionadas
+Cores Intercaladas -> Triadicas, Quadrado, Tetradicas
+
+Monocromia 
+trabalha somente com uma cor e atera saturacao e luminisidade
+
+
+Tipografia - surgiu no seculo 15 - surgiu para melhorar a visibilidade 
+Monge Copista - fazia copias de livros.
+1450 - Johannes Gutenberg - Prensa mecanica
+
+Tipo - týpos
+Grafia - graphía
+
+Anatomia do Tipo
+1 - corpo
+2 - Acendente
+3 - descendente
+4 - Altura das maiusculas
+5 - Atura-x
+
+Nein todas as fontes tem serifa
+
+
+Geometria
+haste
+filete
+arco
+barriga
+esporão
+vertice
+terminal
+
+braço
+perna 
+pé
+espinha
+olho
+orelha
+calda
+
+glifo é uma letra
+
+
+TAMANHOS DE FONTES
+
+Medidas absolutas 
+cm - centimetro
+mm - milimetro
+in - polegada
+px - pixel
+pt - ponto
+pc - paica
+
+Medidas Relativas 
+em - tamanho atual da Fonte - altura M
+ex - tamanho ex da Fonte - altura x
+res - tamanho relativo da fonte configurada no body
+vw -  viewport -  % da largura da sua tela
+vh - viewport -  % da altura da sua tela
+%
+
+PESOS DAS FONTES
+lighter - leve
+normal - normal
+bold - negrito
+bolder - extra negrito
+
+font-weight: normal;
+font-style: normal;
+text-decoration: underline;/*sublinhado*/
+
+
+Tipos de fontes externas
+
+Ex018
+// dentro do style
+@font-face {
+         font-family: 'Hallo'; // renomeia a fonte.
+        src: url('Night Rumble.otf') format('opntype'),
+          url('Night Rumble.ttf') format('truetype');
+ }
+/*  Tipos de format()
+    - opntype (otf)
+    - truetype (ttf)
+    - embedded-opentype
+    - truetype-att(Apple Advanced Typography)
+    - svg
+*/
+       
+
+//exercicio 019
+/*
+    em html é id = em CSS é # (só pode um elemento)
+    em html é class = em CSS é (pode varios elementos)
+*/
+
+//exercicio 020 --------------------------------------------------------
+pseudoclasses
+
+CSS
+
+# = id
+. = class
+: = pseudo-classes
+:: = pseudo-element
+>  = clildren
+
+
+body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited {
+            color: darkred;
+        }
+
+        a:hover {
+            color: black;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: blue;
+        }
+
+        .especial{
+            background-color: rgba(169, 169, 169, 0.394);
+        }
+
+        .especial::before{
+            content:'⇒ ';
+        }
+        .especial::after{
+            content:' ⇐';
+        }
+----------------------------------------------------------------
+height
+width
+border
+padding - calculado em todas as dimensoes
+margin - borda para fora
+outline - fora do elemento
+
+div - box-level
+<h1>-<h6>
+<p>
+<main>
+<header>
+<nav>
+<article>
+<aside>
+<footer>
+<form>
+<video>
+
+span - inline-level
+<a>
+<code>
+<small>
+<strong>
+<em>
+<sup>-<sub>
+<label>
+<button>
+<input>
+<select>
+
+
+
+//---- capitulo 16 organizacao semantica exerci 21 caixa02
+dentro do body para nao usarmos divs dentro de divs usamos
+header - cabecalho
+main   - corpo
+footer - rodape
+
+//****
+Capitulo 17 variaveis em css
+/* raiz da arvore do documento :root*/
+:root {
+    --cor0: #c5ebd6;
+    --cor1: #83e1ad;
+    --cor2: #3ddc84;
+    --cor3: #2fa866;
+    --cor4: #1a5c37;
+    --cor5: #063d1e;
+
+    --fonte-padr
+}
+
+body {
+    background-color: var(--cor0);
+}
