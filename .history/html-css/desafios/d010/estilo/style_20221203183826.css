@@ -57,7 +57,6 @@ header>p{
     padding-right: 10px;
     padding-left: 10px;
     margin: auto;
-    margin-bottom: 30px;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.267);
 }
 nav{
@@ -66,7 +65,7 @@ nav{
     box-shadow:0px 7px 7px rgba(0, 0, 0, 0.267);
 }
 nav > a{
-    color: var(--cor1);
+    color: white;
     padding: 10px;
     border-radius: 5px;
     text-decoration: none;
@@ -99,18 +98,7 @@ main img.pequena{
     max-width: 350px;
 }
 div.video{
-    background-color:var(--cor5);
-    margin: 0px -20px 30px -20px;
-    padding:20px;
-    padding-bottom: 56.5%;
-    position: relative;
-}
-div.video>iframe{
-    position: absolute;
-    top:5%;
-    left:5%;
-    width: 90%;
-    height: 90%;
+    bac
 }
 
 main h1 {
