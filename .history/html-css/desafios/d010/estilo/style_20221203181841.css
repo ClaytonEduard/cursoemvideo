@@ -30,9 +30,6 @@ body {
     background-color: var(--cor0);
     font-family: var(--fonte-padrao);
 }
-a.externo::after{
-    content: "\00a0\1F517";
-}
 
 header{
     background-image: linear-gradient(to bottom,var(--cor3),var(--cor5) );

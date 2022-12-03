@@ -30,9 +30,6 @@ body {
     background-color: var(--cor0);
     font-family: var(--fonte-padrao);
 }
-a.externo::after{
-    content: "\00a0\1F517";
-}
 
 header{
     background-image: linear-gradient(to bottom,var(--cor3),var(--cor5) );
@@ -138,19 +135,18 @@ aside{
     background-color:var(--cor1);
     padding: 10px;
     border-radius: 5px;
-    box-shadow:3px 3px 8px rgba(0, 0, 0, 0.406);
 }
 aside>h3{
     background-color:var(--cor4);
-    color:white;
-    padding: 10px;
+    padding: 5px;
     margin: -10px -10px 0px -10px;
-    border-radius: 10px 10px 0px 0px;
+    border-radius: 10px 10px 0px 0
 }
 aside> ul{
     list-style-type: "\2714\00a0\00a0";
     list-style-position: inside;
     columns: 2;
+
 }
 
 footer{
