@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    min-height: 98;
+    background-color: darkgray;
+
+
+
+}
