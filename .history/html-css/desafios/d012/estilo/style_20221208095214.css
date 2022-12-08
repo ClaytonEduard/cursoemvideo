@@ -73,11 +73,9 @@ section.normal {
 
 section.imagem {
     background-color: rgba(0, 0, 0, 0.561);
-    color: white;
+    color: white
     /*sombra interna na imagem*/
-    box-shadow:inset 6px 6px 13px 0px rgba(0, 0, 0, 0.466);
-    background-size: cover;
-    background-attachment: fixed;
+    box-shadow:inset 6px 6px
 }
 
 section.imagem>p {
@@ -90,11 +88,13 @@ section.imagem>p {
 section#img01{
     background-image: url('../image/background001.jpg');
     background-position: right center;
+    background-size: cover;
 }
 
 section#img02{
     background-image: url('../image/background002.jpg');
     background-position: right center;
+    background-size:cover;
 }
 footer {
     background-color: black;
