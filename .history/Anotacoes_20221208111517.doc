@@ -245,9 +245,6 @@ Cap 21 - tabelas
 nao pode usar tabela para criar a estrutura do Site
 serve para mostrar dados no site
 
-hierarquia de tabela (simples)
-    table = tabela
-    table row = linha da tabela
-        table header = cabecalho da tabela
-            table data = dado de tabela
+todas as tabelas seguem a hierarquia
+    
 
