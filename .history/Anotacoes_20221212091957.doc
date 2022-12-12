@@ -252,15 +252,4 @@ hierarquia de tabela (simples)
             table data = dado de tabela
 
 
-Cap 22 - Iframe
-
-/*o stylo sobrepoe as propriedades do Iframe*/
-        iframe{
-            width: 400px;
-            height: 400px;
-        }
-
-
-     <iframe src="https://www.cursoemvideo.com" frameborder="0" height="500" scolling="no">
-            <a href="https://www.cursoemvideo.com">Curso em Video</a>
-        </iframe>
+Cap 
