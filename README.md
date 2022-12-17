@@ -96,4 +96,9 @@
 
 <a href="https://claytoneduard.github.io/cursoemvideo/html-css/ex024/iframe005.html" target="_blank">Exercício 024 iframe005 - Segurança no iframe com script livre</a>
 
-<a href="https://claytoneduard.github.io/cursoemvideo/html-css/ex024/iframe005.html" target="_blank">Exercício 024 iframe006 - Com mapas, videos e documents</a>
+<a href="https://claytoneduard.github.io/cursoemvideo/html-css/ex024/iframe006.html" target="_blank">Exercício 024 iframe006 - Com mapas, videos e documents</a>
+
+<a href="https://claytoneduard.github.io/cursoemvideo/html-css/ex022/form001.html" target="_blank">Exercício 025 form001 - formulário basíco</a>
+
+<a href="https://claytoneduard.github.io/cursoemvideo/html-css/ex022/form002.html"                                             target="_blank">Exercício 025 form002 - formulário basíco com tratativas</a>
+
