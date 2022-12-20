@@ -1,0 +1,147 @@
+@charset "UTF-8";
+
+/*todas as demais midias*/
+
+/*Typical devide breakpoints 
+
+Pequenas telas: até 600px;
+Celular: de 600px até 768px;
+Tablet: 768px  até 992px;
+Desktop: 992px até 1200px;
+Grandes Telas: acima de 1200px;
+*/
+@media print {
+    * {
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    body {
+        /*desnecessario*/
+        background-image: url(../image/back-print.jpg);
+        /*-----------------*/
+    }
+
+    main {
+        width: 90vw;
+        border: 2px solid black;
+        border-radius: 5px;
+    }
+
+    main::after {
+        text-align: center;
+        content: "Esta impressão foi produzida por Clayton Eduard";
+        /*linha me cima*/
+        text-decoration: overline;
+    }
+
+    main h1 {
+        text-shadow: none;
+        color: black;
+    }
+
+
+    img#phone {
+        display: none;
+    }
+
+    img#tablet {
+        display: none;
+    }
+
+    img#print {
+        display: block;
+    }
+
+    img#pc {
+        display: none;
+    }
+
+    img#tv {
+        display: none;
+    }
+}
+
+/*Tablet*/
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    body {
+        background-image: url(../image/back-tablet.jpg);
+    }
+
+    img#phone {
+        display: none;
+    }
+
+    img#tablet {
+        display: block;
+    }
+
+    img#print {
+        display: none;
+    }
+
+    img#pc {
+        display: none;
+    }
+
+    img#tv {
+        display: none;
+    }
+}
+
+/*Desktop*/
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    body {
+        background-image: url(../image/back-pc.jpg);
+    }
+
+    img#phone {
+        display: none;
+    }
+
+    img#tablet {
+        display: none;
+    }
+
+    img#print {
+        display: none;
+    }
+
+    img#pc {
+        display: block;
+    }
+
+    img#tv {
+        display: none;
+    }
+}
+
+/*Grandes telas*/
+@media only screen and (min-width: 1200px) {
+    body {
+        background-image: url(../image/back-tv.jpg);
+    }
+
+    main {
+        width: 700px;
+    }
+
+    img#phone {
+        display: none;
+    }
+
+    img#tablet {
+        display: none;
+    }
+
+    img#print {
+        display: none;
+    }
+
+    img#pc {
+        display: none;
+    }
+
+    img#tv {
+        display: block;
+    }
+}
