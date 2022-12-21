@@ -8,9 +8,10 @@
     <title>Media Query</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/media-query.css">
 </head>
 
-<body>
+<body onresize="mudouTamanho()">
     <header>
         <h1>Meu Site</h1>
         <i id="burger" class="material-icons orange600" onclick="clickMenu()">menu</i>
@@ -51,6 +52,14 @@
                 menuItens.style.display = 'none';
             } else {
                 menuItens.style.display = 'block'
+            }
+        }
+
+        function mudouTamanho() {
+            if (window.innerWidth >= 768) {
+                menuItens.style.display = 'block'
+            } else {
+                menuItens.style.display = 'none';
             }
         }
     </script>
