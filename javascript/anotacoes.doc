@@ -1,0 +1,112 @@
+anotacoes JavaScript
+
+comandos basícos.
+
+alert()  -- alerta de dados
+pronpt() -- input de dados
+confirm() -- pergunta de confirmacao
+
+/-----------------------------------/
+variaveis JavaScript
+    var
+    let
+
+    var a1 = 1;
+    "=" simbulo atribui dados a uma variavel 
+
+Atribuição de String
+    var s1 = "JavaScript" - haspas duplas
+    var s2 = 'Curso' - haspas simples
+    var s3 = `Clayton`  -- Crase
+
+todo numero e number, não tem existinsão de float e ou interger
+
+Tipos primitivos de variaveis --------------
+    number
+        infinity
+        NaN
+    String
+    boolean
+    null
+    undefined
+    object
+        Array
+    function
+
+typeof - ajuda a saber qual o tipo da variavel 
+
+todo dado obtido pelo prompt do JavaScript recebe um String.
+---------------------------------------------------------------
+
+Conversões de dados -------------------
+
+var n
+n = Number.parseInt(window.prompt('Digite outro número'))
+n = Number(window.prompt('Digite um número'))
+n = Number.parseFloat(n)
+parseFloat(n)
+String(n)
+n.toString()
+
+
+template String --  forma de usar o JavaScript direto no html
+var nome = "Clayton"
+`O aluno ${nome} é novato` --  esse formato usa-se crases ` `
+
+nome.length / informa o tamanho da variavel
+nome.toUpperCase() / passar o dado para maiuscula
+nome.toLowerCase() / passar o dado para minuscula
+
+var n = 1544.5 / para imprimir em duas casas decimais
+    n.toFixed(2)
+    n.toFixed(2).replace('.', ',') / trocar o ponto por virgula
+
+'1545,60'
+
+n.toLocaleString('pt-BR', {style:'currency', currency:'BRL'})
+'R$ 1.545,60'
+n.toLocaleString('pt-BR', {style:'currency', currency:'USD'})
+'US$ 1.545,60'
+n.toLocaleString('pt-BR', {style:'currency', currency:'EUR'})
+'€ 1.545,60'
+
+------------------------------------------------------------------------
+    Operadores
+
+aritméticos
+    operadores binarios 
+    + soma                      5 + 2 -> 7
+    - subtração                 5 - 2 -> 3
+    * multiplicação             5 * 2 -> 10
+    / divisão inteira           5 / 2 -> 2.5
+    % resto da divisão inteira  5 % 2 -> 1
+    ** potencia                 5 ** 2 -> 25
+    ordem de precedencia dos operadores
+   |  ()
+   |  **
+   |  * / %
+   V  + -
+
+atribuição 
+    var n = 3   
+    auto atribuição
+    n = n + 4
+    n += 4
+    n -= 4
+    n *= 4
+    n /= 4
+    n **= 4
+    n %= 4
+    incremento
+     var x = 5
+     x = x++
+      x : 6
+     x = x--
+      x : 5
+
+
+relacionais
+lógicos
+ternário
+
+
