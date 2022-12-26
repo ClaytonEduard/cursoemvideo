@@ -86,7 +86,7 @@ aritméticos
    |  **
    |  * / %
    V  + -
-
+-----------------------
 atribuição 
     var n = 3   
     auto atribuição
@@ -103,10 +103,55 @@ atribuição
       x : 6
      x = x--
       x : 5
-
-
+----------------------
 relacionais
+    >       5 > 2 : true
+    <       7 < 4 : false
+    >=      8 >= 8 : true
+    <=      9 <= 7 : false
+    ==      5 == 5 : true
+    !=      4 != 4 : false
+    !== desigual restrito
+    identidade
+    5 == 5 true normal
+    5 == '5' true / tipos diferentes
+    5 === '5' false / se os dois valores são identicos e do mesmo tipo
+    5 === 5 true / são identicos
+----------------------
 lógicos
+  |  ! negação 
+  |  && consjução (e)
+  V  || disjunção (ou)
+----------------------
 ternário
+    teste ? true : false
+    ? .... se verdade
+    : .... se nao
+    media >=7.0 ? "Aprovado" : "Reprovado"
+------------------------------------------------------------------------------------------------------------
 
+Entendendo o DOM 
 
+Document Object Model
+
+Arvore DOM.
+                  window
+        location document history
+                  html
+               head  body 
+      meta title      h1 p div
+                         strong
+
+----- Selecionando
+    por Marca
+getElementByTagName()
+            por ID
+            por Nome
+            por Classe
+            por Seletor
+
+id represantado por "div#''"
+classe reporesenatado por "div.''"
+
+----------------------------------------------------------------'
+Funcoes
