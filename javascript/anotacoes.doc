@@ -155,3 +155,15 @@ classe reporesenatado por "div.''"
 
 ----------------------------------------------------------------'
 Funcoes
+
+Condicoes normais = if e else if
+
+Condicoes Multiplas
+    swicht(expressão){
+        case 1:
+            break
+        case ...:
+            break
+        default
+            break
+    }
