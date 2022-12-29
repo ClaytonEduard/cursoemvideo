@@ -1,0 +1,6 @@
+// variavel que recebe uma funcao
+
+let v =  function (x) {
+    return x*2
+}
+console.log(v(2))
