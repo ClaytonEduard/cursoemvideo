@@ -167,3 +167,23 @@ Condicoes Multiplas
         default
             break
     }
+
+Quais são os proximos passos
+
+Html css =  feito
+Estudar:
+    function = {
+        normais = ok
+        async   =
+        await   =
+    }
+    object
+     [
+        declaração 
+        let amigo = {nome:'jose',sexo:'M', peso:85,4, engordar(p){} }
+     ]
+    modularização
+    regex - expressoes regulares
+    JSON
+    AJAX
+    NodeJS
